@@ -20,7 +20,9 @@ API is the acronym for Application Programming Interface, which is a software in
 
 ## **Prerequisite :**
 
-Spin the docker container as per the instruction so that the API's under tests are accessible
+- Spin the docker container as per the instruction so that the API's under tests are accessible
+
+- Install Node.js and Playwright
 
 ## **Running Test:**
 
@@ -31,4 +33,4 @@ Run the below npx command.
 
 Once the execution completes report will be generated in below folder.
 
-**/jsonReports:**
+`/jsonReports`
