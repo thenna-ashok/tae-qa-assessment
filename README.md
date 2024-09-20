@@ -27,7 +27,7 @@ Spin the docker container as per the instruction so that the API's under tests a
 Open the terminal and navigate to the application folder.
 Run the below npx command.
 
-npx playwright test
+'npx playwright test'
 
 Once the execution completes report will be generated in below folder.
 
