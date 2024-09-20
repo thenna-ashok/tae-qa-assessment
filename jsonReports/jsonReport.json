@@ -1,7 +1,7 @@
 {
   "config": {
     "configFile": "/Users/thenna/Desktop/automation/tae-qa-assessment/playwright.config.ts",
-    "rootDir": "/Users/thenna/Desktop/automation/tae-qa-assessment/src/tests",
+    "rootDir": "/Users/thenna/Desktop/automation/tae-qa-assessment/tests",
     "forbidOnly": false,
     "fullyParallel": true,
     "globalSetup": null,
@@ -45,7 +45,7 @@
         "metadata": {},
         "id": "",
         "name": "",
-        "testDir": "/Users/thenna/Desktop/automation/tae-qa-assessment/src/tests",
+        "testDir": "/Users/thenna/Desktop/automation/tae-qa-assessment/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -70,7 +70,7 @@
         {
           "title": "Create a Todo Item",
           "file": "postGetTodoItem.test.ts",
-          "line": 4,
+          "line": 5,
           "column": 6,
           "specs": [
             {
@@ -88,7 +88,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 58,
+                      "duration": 85,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -96,10 +96,10 @@
                       "steps": [
                         {
                           "title": "Create a Todo Item with description",
-                          "duration": 38
+                          "duration": 67
                         }
                       ],
-                      "startTime": "2024-09-20T06:21:48.124Z",
+                      "startTime": "2024-09-20T10:12:53.153Z",
                       "attachments": []
                     }
                   ],
@@ -108,7 +108,7 @@
               ],
               "id": "7abad7a8c8deabbd9719-3fce723bac95d7001064",
               "file": "postGetTodoItem.test.ts",
-              "line": 5,
+              "line": 6,
               "column": 7
             }
           ]
@@ -116,7 +116,7 @@
         {
           "title": "Retrieve Todo Item",
           "file": "postGetTodoItem.test.ts",
-          "line": 22,
+          "line": 26,
           "column": 6,
           "specs": [
             {
@@ -134,7 +134,7 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 77,
+                      "duration": 107,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
@@ -142,10 +142,10 @@
                       "steps": [
                         {
                           "title": "Retrieve TodoItem",
-                          "duration": 57
+                          "duration": 90
                         }
                       ],
-                      "startTime": "2024-09-20T06:21:48.124Z",
+                      "startTime": "2024-09-20T10:12:53.154Z",
                       "attachments": []
                     }
                   ],
@@ -154,7 +154,7 @@
               ],
               "id": "7abad7a8c8deabbd9719-423de7e396ad607873d6",
               "file": "postGetTodoItem.test.ts",
-              "line": 23,
+              "line": 27,
               "column": 7
             }
           ]
@@ -164,8 +164,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-09-20T06:21:47.757Z",
-    "duration": 456.974,
+    "startTime": "2024-09-20T10:12:52.753Z",
+    "duration": 521.759,
     "expected": 2,
     "skipped": 0,
     "unexpected": 0,

@@ -5,7 +5,7 @@ import Ajv from "ajv";
 test.describe("Create a Todo Item", () => {
   test("Check the Create Todo API", async ({ request }) => {
     await test.step("Create a Todo Item with description", async () => {
-      // To generate random description
+      // To generate random item description
       const itemDesc = "Item" + Math.floor(Math.random() * 1000) + 1;
 
       // POST request body param
@@ -34,7 +34,7 @@ test.describe("Retrieve Todo Item", () => {
       const responseJSON = await response.json();
       const ajv = new Ajv();
       const valid = ajv.validate(
-        require("../../src/schemas/response-schema.json"),
+        require("../src/schemas/response-schema.json"),
         responseJSON
       );
 
